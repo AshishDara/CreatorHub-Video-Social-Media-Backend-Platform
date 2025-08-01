@@ -2,7 +2,7 @@
     "name": "coffee-backend",
     "version": "1.0.0",
     "description": "backend with coffee",
-    "main": "index.js",
+    "main": "src/index.js",
     "type": "module",
     "engines": {
         "node": "16.x"
@@ -11,7 +11,6 @@
         "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
         "start": "node src/index.js"
     },
-
     "keywords": [
         "javascript",
         "backend",
