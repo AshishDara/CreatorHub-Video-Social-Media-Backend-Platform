@@ -8,9 +8,10 @@
         "node": "16.x"
     },
     "scripts": {
-        "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+        "dev": "nodemon  src/index.js",
         "start": "node src/index.js"
     },
+    
     "keywords": [
         "javascript",
         "backend",
