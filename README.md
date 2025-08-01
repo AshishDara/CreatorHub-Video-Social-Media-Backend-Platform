@@ -9,7 +9,7 @@ and also combines the tweet functionality from twitter into it. Find more about 
 
 | Content            | Link                                                                        |
 | -------------------| ----------------------------------------------------------------------------|
-| API Documentation  | [click here](https://documenter.getpostman.com/view/28570926/2s9YsNdVwW)    |
+| API Documentation  | [click here](https://documenter.getpostman.com/view/46784095/2sB3BALXtk)    |
 | Model              | [click here ](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)         |
 
 ## Features
@@ -70,7 +70,3 @@ and also combines the tweet functionality from twitter into it. Find more about 
 - Cloudinary (must have an account)
 
 
-
-## License
-
-This project is licensed under [ChaiAurCode](https://www.youtube.com/@chaiaurcode).

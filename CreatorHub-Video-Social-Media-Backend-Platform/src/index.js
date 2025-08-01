@@ -3,9 +3,10 @@ import connectToDB from './db/dbConnect.js'
 import app from './app.js'
 
 dotenv.config({
-    path: '/env'  // if giving prob try "./.env"
+    path: '../.env'
 })
 
+// console.log("Connecting with MONGODB_URL:", process.env.MONGODB_URL);
 connectToDB()
 .then(() => {
     app.listen(process.env.PORT || 8000, () => {
