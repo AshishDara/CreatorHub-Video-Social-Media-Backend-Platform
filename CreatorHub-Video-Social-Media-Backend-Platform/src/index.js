@@ -9,9 +9,11 @@ dotenv.config({
 // console.log("Connecting with MONGODB_URL:", process.env.MONGODB_URL);
 connectToDB()
 .then(() => {
-    app.listen(process.env.PORT || 8000, () => {
-        console.log(`Server is listening on: ${process.env.PORT}`);
-    })
+    // app.listen(process.env.PORT || 8000, () => {
+    //     console.log(`Server is listening on: ${process.env.PORT}`);
+    // })
+    // We don't need app.listen here for Vercel
+    console.log("MongoDB connected successfully. The app is ready.");
 })
 .catch((error) => console.log("MONGODB connection failed!!!: ", error))
 
